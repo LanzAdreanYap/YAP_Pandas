@@ -22,7 +22,7 @@ print(b)
 print("")
 print("")
 
-# letter d:
+# letter d: Determine how many cylinders and what gear type of the given car models
 c = cars.loc[cars['Model'].isin(['Mazda RX4 Wag','Ford Pantera L','Honda Civic']),['Model','cyl','gear']]
 print("Cylinders and Gear Type of The Following:")
 print("")
